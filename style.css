@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav, ul, .hero-container, .info, .quote-container, .bottom, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+    margin: 0;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    height: 500px;
+    padding: 0 200px;
+}
+
+.nav {
+    justify-content: space-between;
+    height: 80px;
+    padding: 0;
+}
+
+.header, .main-text{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+}
+
+li {
+    margin: 0;
+}
+
+a, .secondary-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-container {
+    height: 320px;
+    padding: 0;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-text, .title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.img {
+    width: 600px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Info secction */
+.img-info {
+    height: 350px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+  
+.item {
+    max-width: 200px;
+}
+
+.item img {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid 2px #3882F6;
+    min-height: 180px;
+    min-width: 160px;
+}
+
+/* Quote Section */
+.quote-container {
+    background-color: #E5E7EB;
+    height: 400px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    width: 100%;
+}
+
+.quotee{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+/* Sign Up box */
+.bottom {
+    height: 350px;
+}
+
+.action {
+    height: 150px;
+    width: 80%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action .main {
+    font-size: 28px;
+    font-weight: 800;
+    color: #F9FAF8;    
+}
+
+.action .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 60px;
+    color: white;
+    font-weight: 500;
+}
